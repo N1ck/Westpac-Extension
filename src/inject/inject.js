@@ -2,6 +2,7 @@
  *  Project: Westpac Input Helper
  *  Description: Helps with form input on Westpac online banking
  *  Author: Nick Lockhart
+ *  Contributors: Brad Barrow
  *  License: To Kill
  */
 
