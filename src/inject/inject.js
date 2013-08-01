@@ -6,7 +6,6 @@
  */
 
 // "Amount" field only accepts numbers and decimal
-var amountField = document.querySelector('input[name="amount"]');
 document.querySelector('input[name="amount"]').addEventListener('input',function(e){
- 	amountField.innerText = parseFloat(Math.round(amountField.value * 100) / 100).toFixed(2);
+ 	this.value = (this.value.replace(/[^0-9.]/g, ""));
 }, false);
